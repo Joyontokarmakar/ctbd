@@ -1,0 +1,337 @@
+/*medium layout: 1280px.*/
+
+@media only screen and (min-width:992px) and (max-width:1200px) {}
+
+
+/*tablet layout: 768px.*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .sec {
+        width: 90%;
+    }
+
+    .logo > img {
+        height: 20px;
+        margin: -5px;
+    }
+
+    .header_part {
+        min-height: 60px;
+    }
+
+    .menu_sec > ul > li {
+        padding: 8px 6px;
+        margin-right: 6px;
+        margin-top: 9px;
+    }
+
+    .menu_sec > ul > li > a {
+        font-size: 13px;
+    }
+
+    .content {
+        top: 47%;
+        left: 7%;
+        line-height: 32px;
+    }
+
+    .content > h1 {
+        font-size: 25px;
+    }
+
+    .offer {
+        height: 490px;
+    }
+
+    .part {
+        width: 49%;
+        margin-right: 1%;
+    }
+
+    .offer_part {
+        width: 100%;
+    }
+
+    .child {
+        width: 48%;
+        margin: 1%;
+    }
+
+    .link > ul > li > img {
+        height: 25px;
+        margin-left: 5px;
+    }
+
+    .user_info_content > p {
+        font-size: 14px;
+    }
+
+    .user_info_content > ul > li > a {
+        font-size: 13px;
+    }
+}
+
+/* mobile layout: 320px.*/
+
+@media only screen and (max-width: 479px) {
+
+    .sec {
+        width: 95%;
+    }
+
+    .head {
+        padding: 20px 0px;
+    }
+
+    .header_part {
+        min-height: 50px;
+    }
+
+    .logo {
+        padding: 10px 0px;
+    }
+
+    .logo > img {
+        height: 11px;
+        margin-top: 9px;
+    }
+
+    .menu_sec > ul > li {
+        padding: 5px 1px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .menu_sec > ul > li > a {
+        font-size: 10px;
+    }
+
+    .content {
+        top: 34%;
+        left: 5%;
+        line-height: 25px;
+    }
+
+    .content > h1 {
+        font-size: 17px;
+    }
+
+    .content > p {
+        font-size: 12px;
+    }
+
+    .content > button {
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .intro {
+        padding: 10px 20px;
+        line-height: 15px;
+    }
+
+    .intro > h1 {
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    .intro > p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .offer {
+        height: 1000px;
+    }
+
+    .head > h1 {
+        font-size: 35px;
+    }
+
+    .offer_part {
+        width: 100%;
+        text-align: center;
+    }
+
+    .part {
+        margin-top: 30px;
+    }
+
+    .part_img {
+        float: none;
+        height: 60px;
+    }
+
+    .part_content {
+        margin-top: -30px;
+        text-align: center;
+    }
+
+    .part_content_text {
+        margin-top: -15px;
+    }
+
+    .part_content_head > p {
+        margin-top: 15px;
+    }
+
+    .about {
+        height: 740px;
+    }
+
+    .title_intro {
+        font-size: 19px;
+    }
+
+    .partition {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .partition > img {
+        width: 100%;
+    }
+
+    .para {
+        text-align: justify;
+    }
+
+    .pay {
+        letter-spacing: 2px;
+        font-size: 10px;
+        height: 60px;
+    }
+
+    .child {
+        width: 100%;
+    }
+
+    .user_info {
+        width: 100%;
+    }
+
+}
+
+/* wide mobile layout: 480px.*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .sec {
+        width: 90%;
+    }
+
+    .header_part {
+        min-height: 62px;
+    }
+
+    .logo > img {
+        height: 10px;
+
+    }
+
+    .menu_sec > ul > li {
+        padding: 20px 4px;
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+
+    .menu_sec > ul > li > a {
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .content {
+        left: 8%;
+        top: 47%;
+        line-height: 26px;
+    }
+
+    .content > h1 {
+        font-size: 18px;
+    }
+
+    .content > p {
+        font-size: 14px;
+    }
+
+    .content > button {
+        font-size: 10px;
+    }
+
+    .intro > h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .offer {
+        height: 1030px;
+    }
+
+    .offer_part {
+        width: 100%;
+        text-align: center;
+        margin-top: -15px;
+    }
+
+
+    .part {
+        margin-top: 30px;
+    }
+
+    .part_img {
+        float: none;
+        height: 60px;
+    }
+
+    .part_content {
+        margin-top: -30px;
+        text-align: center;
+    }
+
+    .part_content_text {
+        margin-top: -15px;
+    }
+
+    .part_content_head > p {
+        margin-top: 15px;
+    }
+
+    .about {
+        height: 770px;
+    }
+
+    .partition {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .partition > img {
+        width: 100%;
+    }
+
+    .para {
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .pay > h1 {
+        font-size: 24px;
+    }
+
+    .course_head {
+        padding: 5px 0px;
+        margin-top: 0px;
+    }
+
+    .album {
+        margin-top: 5px;
+    }
+
+    .child {
+        width: 100%;
+    }
+
+    .user_info {
+        width: 100%;
+        padding: 1%;
+    }
+}

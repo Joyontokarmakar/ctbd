@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full {
+    width: 100%;
+}
+
+.sec {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+/*Start Header*/
+.header_part {
+
+    min-height: 67px;
+
+}
+
+.menu_sec > ul > li {
+    list-style: none;
+    float: left;
+    padding: 20px 10px;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+
+.menu_sec > ul > li:hover {
+    background-color: rgba(112, 140, 235, 0.88);
+}
+
+.menu_sec > ul > li:last-child {
+    margin-right: 0px;
+}
+
+.menu_sec > ul > li > a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #908686;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu_sec > ul > li > a > span {
+    color: #287cc6;
+}
+
+.menu_sec > ul > li > a > span:hover {
+    color: white;
+}
+
+.menu_sec > ul > li > a:hover {
+    color: white;
+}
+
+.logo {
+    float: left;
+    padding: 20px 0px;
+}
+
+.logo > img {
+    height: 23px;
+}
+
+.menu_sec {
+    float: right;
+}
+/*End header*/
+/*start Banner*/
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner > img {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    left: 11%;
+    top: 49%;
+    line-height: 37px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.content > h1 {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.content > p {
+    font-family: sans-serif;
+    color: white;
+}
+
+.content > button {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #ffffff8c;
+    border-radius: 3px;
+    background-color: #ffffff00;
+}
+
+.content > button:hover {
+    background-color: #466886;
+    border: 1px solid;
+}
+/*End Banner*/
+/*start welcome*/
+.intro {
+    text-align: center;
+    color: #3e4a55;
+    padding: 50px 60px;
+}
+
+.intro > h1 {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+.intro > h1 > bold {
+    font-weight: Bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+.intro > h1 > span {
+    font-size: 24px;
+    color: #2662d4;
+}
+
+.intro > p {
+    margin-top: 20px;
+}
+/*End welcome*/
+/*Start Offer*/
+.offer {
+    width: 100%;
+    height: 380px;
+    background-color: #306AE8;
+
+}
+
+.head {
+    padding: 40px 0px;
+}
+
+.head > h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.offer_part {
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+}
+
+.offer_part:last-child {
+    margin-right: 0px;
+}
+
+.part {
+    width: 100%;
+    float: left;
+}
+
+.part_img {
+    float: left;
+    height: 100px;
+    padding: 7px 10px;
+}
+
+.part_content {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.part_content_head > p {
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.part_content_text > p {
+    font-size: 14px;
+    color: white;
+    margin-top: 15px;
+}
+/*End Offer*/
+/*Start About*/
+.about {
+    width: 100%;
+    height: 495px;
+}
+
+.title_head {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.title_head > span {
+    color: #1d82dd;
+}
+
+.in_part {
+    margin-top: 50px;
+}
+
+.title_intro {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #654d4d;
+}
+
+.about > p {
+    text-align: center;
+}
+
+.partition {
+    width: 49%;
+    margin-right: 1%;
+    height: auto;
+    float: left;
+}
+
+.partition:last-child {
+    margin-right: 0%;
+}
+
+.partition > img {
+    width: 100%;
+}
+
+.para {
+    width: 100%;
+}
+
+.para > p {
+    color: #676155;
+}
+
+.para > ul > li {
+    list-style: none;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.para > ul > li > img {
+    float: left;
+    height: 17px;
+}
+
+.para > ul > li > a {
+    margin-left: 25px;
+    font-size: 15px;
+    color: #676155;
+}
+/*End about*/
+/*Start Pay*/
+.pay {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #00030a;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+/*End pay*/
+/*Start Course*/
+.course {
+    width: 100%;
+    height: 835px;
+
+
+}
+
+.course_head {
+    padding: 40px 0px;
+    margin-top: 7px;
+}
+
+.course_head > h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.album {
+    margin-top: 17px;
+}
+
+.parent {
+    width: 100%;
+    display: block;
+}
+
+.child {
+    width: 23%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+.child:last-child {
+    margin-right: 0px;
+}
+
+.child > img {
+    width: 100%;
+}
+
+.bottom > p {
+    font-family: sans-serif;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    background-color: #2289e3;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom > p {
+    font-size: 15px;
+    color: #ffffff;
+}
+/*End Course*/
+/*Start footer*/
+.footer {
+    height: auto;
+    width: 100%;
+    float: left;
+    background-color: #0c0d0d;
+}
+
+.contact {
+    padding: 40px 0px;
+
+}
+
+.contact > h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.user_info {
+    width: 46%;
+    margin-right: 2%;
+    height: auto;
+    float: left;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #306AE8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+.user_info_content > p {
+    font-family: sans-serif;
+    color: #868282f2;
+    text-align: justify
+}
+
+.user_info_content > ul > li {
+    list-style: none;
+}
+
+.user_info_content > ul > li > a {
+    font-family: sans-serif;
+    color: #868282f2;
+    line-height: 36px;
+    margin-left: 20px;
+}
+
+.link {
+    margin-top: 27px;
+}
+
+.link > ul > li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+.link > ul > li > img {
+    height: 30px;
+    margin-left: 15px;
+}
+/*End Footer*/
